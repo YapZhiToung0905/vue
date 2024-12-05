@@ -24,7 +24,7 @@ export interface SetupContext {
   emit: (event: string, ...args: any[]) => any
   expose: (exposed: Record<string, any>) => void
 }
-
+asdasdasdasssssssssssssss
 export function initSetup(vm: Component) {
   const options = vm.$options
   const setup = options.setup
